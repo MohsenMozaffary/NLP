@@ -1,5 +1,5 @@
 from langchain.text_splitter import TokenTextSplitter
-
+import streamlit as st
 def splitter(pdfs, encoding_name = 'gpt2', chunk_size = 100, chunk_overlap = 20):
     # This function is used to split the pdfs' contents to chunks.
     # It is using gpt2 tokenizer.
