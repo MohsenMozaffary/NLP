@@ -1,6 +1,6 @@
 # Chatbot with Web Search and Function Calling
 
-![Chatbot Logo](image.png)  
+![Chatbot](logo.png)  
 *A chatbot leveraging DuckDuckGo for web search and OpenAI for function calling.*
 
 ## Overview
@@ -20,50 +20,32 @@ This chatbot is designed to handle user queries by integrating:
 ### Prerequisites
 Ensure you have the following installed:
 - Python 3.8+
-- pip
+- openai, ducduckgo, streamlit
 
 ### Clone the Repository
 ```bash
-$ git clone https://github.com/yourusername/chatbot-websearch.git
-$ cd chatbot-websearch
+$ git clone https://github.com/MohsenMozaffary/NLP
+$ cd WebGPT
 ```
 
-### Install Dependencies
-```bash
-$ pip install -r requirements.txt
-```
 
 ## Configuration
 
 ### API Keys
-You need API keys for OpenAI and DuckDuckGo. Set them as environment variables:
-```bash
-$ export OPENAI_API_KEY='your_openai_api_key'
-$ export DDG_API_KEY='your_duckduckgo_api_key'
+You need API keys for OpenAI.
 ```
 
 ## Usage
 Run the chatbot using:
 ```bash
-$ python chatbot.py
+$ streamlit run WebSearch_app.py
 ```
 Then, start interacting by typing your queries.
 
-## Example Usage
-```text
-User: Find the latest AI research papers
-Bot: Searching... Here are some relevant results from the web:
-  1. [Paper 1](https://example.com)
-  2. [Paper 2](https://example.com)
 
 User: Summarize this article: https://example.com
 Bot: The article discusses...
 ```
-
-## Roadmap
-- [ ] Add support for more LLMs
-- [ ] Improve function calling with advanced AI agents
-- [ ] Integrate voice input/output
 
 ## Contributing
 Feel free to submit issues and pull requests to enhance the chatbot.
