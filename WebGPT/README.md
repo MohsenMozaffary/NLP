@@ -43,10 +43,6 @@ $ streamlit run WebSearch_app.py
 Then, start interacting by typing your queries.
 
 
-User: Summarize this article: https://example.com
-Bot: The article discusses...
-```
-
 ## Contributing
 Feel free to submit issues and pull requests to enhance the chatbot.
 
